@@ -1,0 +1,73 @@
+.cool-waves {
+    margin-top: 3%;
+    width: 100%;
+    top: 10;
+    left: 0;
+}
+
+.finder__whapper {
+    background-color: #32A92F;
+    padding: 10px;
+}
+
+.finder__whapper h1 {
+    color: #194918;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.finder__options {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option__pet {
+    margin: 0 60px;
+    padding: 15px;
+    border: solid 4px #194918;
+}
+
+.option__pet button {
+    cursor: pointer;
+    border-radius: 6px;
+    border: transparent;
+    color: #194918;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #F0DEDE;
+    height: 40px;
+    width: 150px;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    height: 63px;
+    width: 1300px;
+    margin-bottom: 20px;
+    border: transparent;
+    background-color: #D9D9D9;
+}
+
+.search {
+    cursor: pointer;
+    margin-bottom: 20px;
+    height: 63px;
+    width: 200px;
+    border: transparent;
+    background-color: #194918;
+}
+
+.search i {
+    color: #32a92f;
+}

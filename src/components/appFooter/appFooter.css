@@ -1,0 +1,60 @@
+.footer__whapper .coolwhaves {
+    width: 100%;
+}
+
+.footer__whapper {
+    margin-top: 100px;
+    background-color: #32A92F;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a img {
+    margin: 0 50px;
+}
+
+.footer__info {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 250px; 
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__info b {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.footer__info ul {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.list-adress li {
+    margin-top: 20px;
+}
+
+.list-adress li i {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.footer__info ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}

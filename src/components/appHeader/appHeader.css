@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+    margin: 0;
+}
+
+.whapper {
+    background-color: #fff;
+    height: 1000px;
+    width: 100%;
+}
+
+.bg__whapper {
+    box-shadow: 1px 1px 25px rgb(83, 83, 83);
+    background-color: #32A92f;
+    height: 629px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 80px; 
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 25px; 
+}
+
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar .logo {
+    cursor: pointer;
+    height: 65px; 
+}
+
+.navbar ul li a button {
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border: transparent;
+    height: 40px;
+    width: 165px;
+    border-radius: 10px;
+    transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+.special-links {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.info__whapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__whapper img {
+
+}
+
+.info__whapper p {
+    margin: 0 20px;
+    margin-top: 0%;
+    color: #fff;
+    font-family: "Salsa", cursive;
+    font-size: 70px;
+}
+
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1)
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
+}

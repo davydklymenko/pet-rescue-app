@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.tab__wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+.tab__wrapper h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: hsl(118, 53%, 23%);
+}
+
+.pets__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet {
+    background-color: #1D581B;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pet img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.pet p {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+

@@ -1,0 +1,9 @@
+.app {
+    position: relative;
+    overflow: hidden;
+}
+
+.tab {
+    position: relative;
+    margin-top: -270px; 
+}

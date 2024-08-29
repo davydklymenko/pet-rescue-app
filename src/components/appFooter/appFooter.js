@@ -4,6 +4,8 @@ import instagram from "../../recourses/insta.png";
 import facebook from "../../recourses/facebook.png";
 import twitter from "../../recourses/tw.png";
 
+import cardPayment from "../../recourses/cardpayments.svg";
+
 import './appFooter.css';
 
 const AppFooter = () => {
@@ -13,12 +15,12 @@ const AppFooter = () => {
                 <div className="footer__section">
                     <b>Contact us</b>
                     <ul className="contact_us">
-                        <li>Fortis Green 7</li>
-                        <li>A00110</li>
-                        <li>London</li>
+                        <li>121 /68, near RamaKrishna Ashram Marg, Block 42, DIZ Area, Gole Market</li>
+                        <li>110001</li>
+                        <li>New Delhi</li>
                         <div className="list-adress">
-                            <li><i className="fa-solid fa-phone" style={{ "color": "#fff" }}></i> +44 070 3995 7729</li>
-                            <li><i className="fa-regular fa-envelope" style={{ "color": "#fff" }}></i> info@saveapet.com</li>
+                            <li><i className="fa-solid fa-phone" style={{ "color": "#fff" }}></i> +91 870 021 6608</li>
+                            <li><i className="fa-regular fa-envelope" style={{ "color": "#fff" }}></i> info@saveapet.online</li>
                         </div>
                     </ul>
                 </div>
@@ -40,7 +42,7 @@ const AppFooter = () => {
                 </div>
             </div>
 
-            <div className="social-media">
+            <div className="social-media-and-cards">
                 <a href="https://www.instagram.com/saveapet">
                     <img src={instagram} alt="instagram"/>
                 </a>
@@ -50,8 +52,13 @@ const AppFooter = () => {
                 <a href="https://twitter.com/saveapetil">
                     <img src={twitter} alt="twitter"/>
                 </a>
-            </div>
 
+                <div className="card-payment">
+                    <img src={cardPayment} alt="card_payments_sAp" draggable="false" />
+                </div>
+            </div>
+            
+            <div className="security-copyright-message">@2024 saveApet. All rights reserved.</div>
             <img className="coolwhaves" src={coolWaves2} alt="cool_whaves_2" draggable="false"/>
         </div>
     );

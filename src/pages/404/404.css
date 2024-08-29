@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.message404 {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.message404 img {
+    height: 500px;
+    width: 1000px;
+}
+
+.message-error {
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.go-home-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-home {
+    margin-bottom: 5%;
+    padding: 15px;
+    background-color: #1D581B;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.go-home:hover {
+    background-color: #297726;
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.adopt-apet-modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(117, 117, 117, 0.7);
+    z-index: 1000;
+}
+
+.adopt-apet-modal__content {
+    box-shadow: 2px 2px 15px rgb(88, 88, 88);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    min-height: 400px;
+    min-width: 600px;
+    padding: 15px;
+}
+
+.adopt-apet-modal__close {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.adopt-apet-modal__close button {
+    background-color: transparent;
+    border: 1px #fff solid;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.adopt-apet-modal__message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.adopt-apet-modal__logo {
+    font-weight: 400;
+    font-family: "Salsa", cursive;
+    font-size: 30px;
+    color: #32A92f;
+}
+
+.adopt-apet-modal__succsess {
+    height: 100px;
+    width: 99px;
+    margin-bottom: 20px;
+}
+
+.adopt-apet-modal__message h2,
+.adopt-apet-modal__message p {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+.adopt-apet-modal__message-successful {
+    width: 48ch;
+}
+
+.adopt-apet-modal__header {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.adopt-apet-modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.adopt-apet-modal__form-person ul {
+    list-style: none;
+    padding: 0;
+}
+
+.adopt-apet-modal__form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.adopt-apet-modal__form-item input {
+    margin-top: 5px;
+    height: 26px;
+    width: 400px;
+    padding: 14px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 19px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+
+.adopt-apet-modal__form-item input:hover {
+    border: 1px solid #8d8d8d;
+}
+
+.adopt-apet-modal__form-item input:active {
+    border: 1px solid #8d8d8d;
+}
+
+.adopt-apet-modal__info-order input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 1px;
+}
+
+.adopt-apet-modal__info-order {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.adopt-apet-modal__info-order p {
+    margin: 5px 0;
+}
+
+.adopt-apet-modal__terms-policy {
+    color: #32A92f;
+    text-decoration: none;
+}
+
+.adopt-apet-modal__pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.adopt-apet-modal__info-order .pay-button {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #32A92f;
+    border: transparent;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-inline: 160px;
+    height: 40px;
+}
+
+.adopt-apet-modal__info-order .pay-button:hover {
+    box-shadow: 5px 5px 10px rgb(197, 255, 171);
+}
+
+.error-validation {
+    color: red;
+}

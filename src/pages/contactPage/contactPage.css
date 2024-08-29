@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+.contact__path__way {
+    display: flex;
+    background-color: #278824c2;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    padding-top: 120px;
+}
+
+.contact__path__way .home__contact {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.contact__path__way .home__contact:hover {
+    color: #fff;
+}
+
+.contact__path__way .contacter {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact__elements .contact__title {
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.contact__elements .contact__address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact__elements .contact-preview {
+    height: 28vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.contact__elements .contact-description {
+    margin-top: 0px;
+    font-family: "Inter Tight", sans-serif;
+} 
+
+.contact__elements .center-schedule {
+    margin-top: 10px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 600;
+}
+
+.contact__details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.contact__details .group__email {
+    margin-bottom: 34px;
+}
+
+.contact__details .group__phone {
+    margin: 0 150px;
+}
+
+.contact__details .group__email .email {
+    margin: 0 150px;
+}
+
+.contact__details .contact__phone__title {
+    color: #32A92F;
+    font-size: 30px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+}
+
+.contact__details .contact__email__title {
+    color: #32A92F;
+    font-size: 30px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+}
+
+.contact__details .phone-schedule {
+    margin-top: 8px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+
+.contact__details .contact-phone {
+    margin-top: 5px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+
+.contact__details .contact-email {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+
+.googlemaps {
+    margin-top: 50px;
+}
+
+.location-message {
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 11px;
+}

@@ -42,12 +42,16 @@
     font-weight: 500;
 }
 
+.navbar ul li a:hover {
+    color: #b8ffa2;
+}
+
 .navbar .logo {
     cursor: pointer;
     height: 65px; 
 }
 
-.navbar ul li a button {
+.navbar ul li a .button-solo {
     cursor: pointer;
     color: black;
     background-color: #fff;
@@ -56,7 +60,13 @@
     width: 165px;
     border-radius: 10px;
     transform: scale(1);
+    font-weight: 500;
 	animation: pulse 2s infinite;
+}
+
+.navbar ul li a .button-solo:hover {
+    color: #fff;
+    background-color: #000;
 }
 
 .special-links {
@@ -71,10 +81,6 @@
     justify-content: center;
 }
 
-.info__whapper img {
-
-}
-
 .info__whapper p {
     margin: 0 20px;
     margin-top: 0%;
@@ -82,8 +88,6 @@
     font-family: "Salsa", cursive;
     font-size: 70px;
 }
-
-
 
 @keyframes pulse {
 	0% {

@@ -1,0 +1,22 @@
+.parteners-parents {
+    margin-bottom: 350px;
+}
+.partners-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #32A92F;
+}
+
+.partner {
+    margin: 0 40px;
+    position: relative;
+    height: 63px;
+    width: 200px;
+    object-fit: cover;
+}

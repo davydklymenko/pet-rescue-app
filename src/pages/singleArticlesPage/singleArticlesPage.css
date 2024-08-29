@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar__container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px; 
+    z-index: 1000;
+    background-color: #FFF;
+}
+
+.articles__container {
+    padding-top: 110px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner .message-banner {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    width: 1133px;
+    padding: 25px;
+}
+
+.banner .title {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;  
+}
+
+.banner .seduction-message {
+    font-weight: 400;  
+}
+
+.article__path__way {
+    display: flex;
+    background-color: #278824c2;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.article__path__way .home {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.article__path__way .home:hover {
+    color: #fff;
+}
+
+.article__path__way .articles {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.articles__cards {
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.articles__card {
+    margin-top: 30px;
+}
+
+.articles__card:nth-child(4n+1) {
+    transform: translateY(20px);
+}
+
+.articles__card:nth-child(4n+2) {
+    transform: translateY(10px);
+}
+
+.articles__card:nth-child(4n+3) {
+    transform: translateY(0px);
+}
+
+.articles__card:nth-child(4n+4) {
+    transform: translateY(-10px);
+}
+
+.cards__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide__card__button {
+    padding: 10px;
+    padding-inline: 40px;
+    background-color: #FFF;
+    color: #32A92F;
+    border: 3px #32A92F solid;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.slide__card__button.active {
+    color: #757575;
+    border: 3px #757575 solid;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar__container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px; 
+    z-index: 1000;
+    background-color: #FFF;
+}
+
+.parents__container {
+    padding-top: 130px;
+}
+
+.ad-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad-banner .banner {
+    height: 140px;
+}
+
+.ad-banner .message-banner {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    width: 1133px;
+    padding: 25px;
+}
+
+.ad-banner .title {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;  
+}
+
+.ad-banner .seduction-message {
+    font-weight: 400;  
+}
+
+.path_way {
+    display: flex;
+    background-color: #278824c2;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.path_way .home {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.path_way .home:hover {
+    color: #fff;
+}
+
+.path_way .cuties {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cutie__container {
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cutie__container a {
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide__button {
+    padding: 10px;
+    padding-inline: 40px;
+    background-color: #FFF;
+    color: #32A92F;
+    border: 3px #32A92F solid;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.slide__button.active {
+    border: 3px #757575 solid;
+    color: #757575;
+}
+

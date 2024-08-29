@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab__wrapper {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.tab__wrapper h1 {
+    margin-bottom: 40px;
+    color: hsl(118, 53%, 23%);
+}
+
+.slider__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pets__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pet__wrapper {
+    padding: 15px;
+}
+
+.pet {
+    background-color: #1D581B;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex: 0 0 350px; 
+    cursor: pointer;
+}
+
+.pet:hover {
+    box-shadow: 3px 3px 10px rgb(112, 112, 112);
+    transition: all .3s ease-in-out;
+}
+
+.pet img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.pet p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 10px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px; 
+    box-sizing: border-box;
+}
+
+.slick-dots li button:before {
+    font-size: 16px; 
+}
+
+.slick-prev, .slick-next {
+    width: 40px;
+    height: 40px; 
+    z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px; 
+}
+
